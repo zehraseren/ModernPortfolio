@@ -16,6 +16,10 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseRouting();
 
+// Kimlik doğrulama
+app.UseAuthentication();
+
+// Yetkilendirme
 app.UseAuthorization();
 
 app.MapStaticAssets();

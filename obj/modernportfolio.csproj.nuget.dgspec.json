@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\desktop\\coding\\modernportfolio\\modernportfolio.csproj": {}
+    "C:\\Users\\Hp\\Desktop\\Coding\\ModernPortfolio\\modernportfolio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\desktop\\coding\\modernportfolio\\modernportfolio.csproj": {
+    "C:\\Users\\Hp\\Desktop\\Coding\\ModernPortfolio\\modernportfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\desktop\\coding\\modernportfolio\\modernportfolio.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\Desktop\\Coding\\ModernPortfolio\\modernportfolio.csproj",
         "projectName": "modernportfolio",
-        "projectPath": "C:\\Users\\Hp\\desktop\\coding\\modernportfolio\\modernportfolio.csproj",
+        "projectPath": "C:\\Users\\Hp\\Desktop\\Coding\\ModernPortfolio\\modernportfolio.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\desktop\\coding\\modernportfolio\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\Desktop\\Coding\\ModernPortfolio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
