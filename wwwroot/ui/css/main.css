@@ -736,7 +736,7 @@ section,
   color: var(--contrast-color);
   background: var(--accent-color);
   font-family: var(--heading-font);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 1px;
