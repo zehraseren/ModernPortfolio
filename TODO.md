@@ -11,7 +11,7 @@
 -- IF NOT EXISTS: Tablo zaten varsa oluşturma
 
 ### Entities
-- Abouts
+- About
 - Skills
 - Projects
 - Testimonials
