@@ -5,7 +5,7 @@ namespace modernportfolio.Repositories;
 
 public class GenericRepository<T> : IGenericRepository<T> where T : class
 {
-    private readonly string _connectionString;
+    protected readonly string _connectionString;
     private readonly string _tableName;
 
     public GenericRepository(IConfiguration configuration)
