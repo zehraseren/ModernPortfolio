@@ -9,7 +9,7 @@ public class Project
     public string Description { get; set; } = string.Empty;
     public string? ImageUrl { get; set; } = string.Empty;
     public string? ProjectUrl { get; set; } = string.Empty;
-    public string? GitHubUrl { get; set; } = string.Empty;
+    public string? GithubUrl { get; set; } = string.Empty;
     public DateTime CreatedAt { get; set; }
     public bool IsActive { get; set; }
 }
