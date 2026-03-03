@@ -1,3 +1,4 @@
+using modernportfolio.Services;
 using modernportfolio.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,6 +20,13 @@ builder.Services.AddScoped<IAboutRepository, AboutRepository>();
 builder.Services.AddScoped<ISkillRepository, SkillRepository>();
 builder.Services.AddScoped<ITestimonialRepository, TestimonialRepository>();
 builder.Services.AddScoped<IContactRepository, ContactRepository>();
+
+// Services
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IAboutService, AboutService>();
+builder.Services.AddScoped<ISkillService, SkillService>();
+builder.Services.AddScoped<ITestimonialService, TestimonialService>();
+builder.Services.AddScoped<IContactService, ContactService>();
 
 var app = builder.Build();
 
