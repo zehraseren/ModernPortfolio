@@ -1,9 +1,24 @@
+using modernportfolio.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+/*
+• Scoped → Her HTTP request için bir instance (örnek) oluşturulur.
+• Singleton → Uygulama yaşam döngüsü boyunca tek bir instance oluşturulur.
+• Transient → Her service istediğinde yeni bir instance oluşturulur.
+*/
+
+// Repositories
+builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
+builder.Services.AddScoped<IAboutRepository, AboutRepository>();
+builder.Services.AddScoped<ISkillRepository, SkillRepository>();
+builder.Services.AddScoped<ITestimonialRepository, TestimonialRepository>();
+builder.Services.AddScoped<IContactRepository, ContactRepository>();
 
 var app = builder.Build();
 
